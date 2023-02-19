@@ -19,7 +19,7 @@ html {
 .main-container {
     display: grid;
     grid-template-rows: 1fr 1fr 5fr 1fr;
-    grid-column: 40% 60%;
+    grid-template-columns: 25% 75%;
     row-gap: 40px;
     background-color: #e5e5e5;
 }
@@ -27,7 +27,8 @@ html {
 .left-container {
     grid-row: 1 / 5;
     background-image: url(../images/Slice.svg);
-    background-size: auto;
+    background-size: cover; 
+    /*should be "cover" to avoid any empty spaces during browser zoom-out/zoom-in- avoid "auto"*/
     background-repeat: no-repeat;
 }
 
@@ -41,6 +42,7 @@ html {
     font-family: 'inter';
     font-weight: 300;
     font-size: 28px;
+    height: 120px;
 }
 
 span {
@@ -67,6 +69,7 @@ span {
     align-items: center;
     height: 686px;
     margin-bottom: 70px;
+    border: solid black;
 }
 
 .login-form {
@@ -78,19 +81,19 @@ span {
     width: 454px;
 }
 
-.nike-black,
-.nike-quote {
+.airy-black,
+.airy-quote {
     display: grid;
     justify-content: center;
     align-items: center;
 }
 
-.nike-black {
+.airy-black {
     height: 50px;
     margin-bottom: 50px;
 }
 
-.nike-quote {
+.airy-quote {
     color: black;
     font-family: 'oswald';
     font-size: 36px;

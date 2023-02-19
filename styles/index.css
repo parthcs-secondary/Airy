@@ -5,10 +5,15 @@
 }
 
 body{
-    background-color: #e5e5e5;
+    background-color: white;
 }
-
-div{
+a {
+    text-decoration: none;
+}
+html{
+    zoom: 67%;
+}
+.banner{
     height: 500px;
     width: auto;
     background-color: black;
@@ -21,6 +26,320 @@ div{
     text-align: center;
 }
 
+.headlines{
+ font-size: 45px;
+ color: white;
+font-family: 'oswald';
+background-color: black;
+}
+
 a{
     color: white;
 }
+
+.header a {
+    color: white;
+}
+span {
+    width: fit-content;
+}
+
+
+
+/* generic css above */
+
+/* specific css below */
+
+.nav-container{
+    display: grid;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'oswald';
+    font-weight: 300;
+    font-size: 28px;
+    margin: 10px 10px;
+}
+
+.header-left{
+    height: 100%;
+}
+
+.header-center {
+    display: flex;
+    gap: 210px;
+    justify-content: center;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 39px;
+    gap: 1rem;
+}
+
+.advertisementBanner-container{
+    display: grid;
+    height: 950px;
+    justify-content: center;
+    padding-top: 67px;
+    padding-bottom: 32px;
+    align-items: center;
+    background-color: #cac5c5;
+    margin-bottom: 10px;
+}
+
+.advertisementImageMover{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 28px;
+}
+
+.advertisementImageMover>button{
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #cac5c5;
+}
+.advertisementImageMover>button.darkButton{
+    background-color: black
+}
+
+.headLine-productoftheweek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.productoftheweek-container{
+    height: 850px;
+    margin-bottom: 10px;
+    padding: 55px;
+    background-color: #D8D8D8;
+}
+
+.headLine-foryou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.foryou-container>div{
+    height: 850px;
+    margin-bottom: 10px;
+}
+
+.headLine-categories-we-serve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.categories-we-serve-container{
+    height: 830px;
+    margin-bottom: 10px;
+}
+.headLine-mentors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mentors-container{
+    height: 435px;
+    margin-bottom: 10px;
+}
+.headLine-whychoseus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.whychoseus-container{
+    height: 435px;
+    margin-bottom: 10px;
+}
+
+.productoftheweek-designinfoholder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.design-of-week-image{
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.design-of-week-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'oswald';
+    font-weight: 400;
+    gap: 75px;
+}
+
+.design-date{
+    font-size: 50px;
+    width: 425px;
+    text-align: center;
+}
+.design-heading{
+    font-size: 75px;
+    width: 582px;
+    text-align: center;
+}
+
+/* next-div */
+.foryou-meninfoholder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: #EBDDDD;
+}
+
+.foryou-men-image{
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.foryou-men-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'oswald';
+    font-weight: 400;
+    gap: 75px;
+}
+
+.foryou-men-heading{
+    font-size: 75px;
+    width: 582px;
+    text-align: center;
+}
+.foryou-men-gotomainpage-button{
+    font-size: 50px;
+    width: 425px;
+    text-align: center;
+}
+
+/* next-div */
+.foryou-womeninfoholder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: #EBDDDD;
+}
+
+.foryou-women-image{
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.foryou-women-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'oswald';
+    font-weight: 400;
+    gap: 75px;
+}
+
+.foryou-women-heading{
+    font-size: 75px;
+    width: 582px;
+    text-align: center;
+}
+.foryou-women-gotomainpage-button{
+    font-size: 50px;
+    width: 425px;
+    text-align: center;
+}
+
+/* nextdiv */
+.foryou-kidsinfoholder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: #EBDDDD;
+}
+
+.foryou-kids-image{
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.foryou-kids-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'oswald';
+    font-weight: 400;
+    gap: 75px;
+}
+
+.foryou-kids-heading{
+    font-size: 75px;
+    width: 582px;
+    text-align: center;
+}
+.foryou-kids-gotomainpage-button{
+    font-size: 50px;
+    width: 425px;
+    text-align: center;
+}
+
+.explore-btn{
+    height: 50px;
+width: 200px;
+border-radius: 5px;
+background-color: black;
+font-family: 'oswald';
+font-size: 18px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+}
+
