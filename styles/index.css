@@ -66,14 +66,14 @@ span {
   padding-right: 22px;
 }
 
-.nav-top-links-container>a{
-    font-family: Oswald;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 16px;
-    letter-spacing: 0em;
-    color: black;
-    opacity: 0.5;
+.nav-top-links-container > a {
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: black;
+  opacity: 0.5;
 }
 
 .nav-container {
@@ -83,6 +83,7 @@ span {
   background-color: black;
 }
 
+/* HEADER  */
 .header {
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
@@ -113,6 +114,7 @@ span {
   gap: 1rem;
 }
 
+/* banner */
 .advertisementBanner-container {
   display: grid;
   height: 950px;
@@ -142,6 +144,8 @@ span {
   background-color: black;
 }
 
+/* DESIGN OF THE WEEK  */
+
 .headLine-productoftheweek {
   display: flex;
   justify-content: center;
@@ -154,72 +158,6 @@ span {
   margin-bottom: 10px;
   padding: 55px;
   background-color: #d8d8d8;
-}
-
-.headLine-foryou {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.foryou-container > div {
-  height: 850px;
-  margin-bottom: 10px;
-}
-
-.headLine-categories-we-serve {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.categories-we-serve-container {
-  height: 830px;
-  margin-bottom: 10px;
-  background-color: #d8d8d8;
-}
-
-.category-infoholder {
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-}
-
-.men-category,
-.women-category {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 135px;
-  margin: auto;
-}
-
-.headLine-mentors {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.mentors-container {
-  height: 435px;
-  margin-bottom: 10px;
-}
-.headLine-whychoseus {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.whychoseus-container {
-  height: 435px;
-  margin-bottom: 10px;
 }
 
 .productoftheweek-designinfoholder {
@@ -259,7 +197,21 @@ span {
   text-align: center;
 }
 
+/* FORYOU  */
 /* next-div */
+
+.headLine-foryou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.foryou-container > div {
+  height: 850px;
+  margin-bottom: 10px;
+}
+
 .foryou-meninfoholder {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -292,7 +244,7 @@ span {
   width: 582px;
   text-align: center;
 }
-.foryou-men-gotomainpage-button {
+.foryou-men-gotomainpage-btn-container {
   font-size: 50px;
   width: 425px;
   text-align: center;
@@ -331,7 +283,7 @@ span {
   width: 582px;
   text-align: center;
 }
-.foryou-women-gotomainpage-button {
+.foryou-women-gotomainpage-btn-container {
   font-size: 50px;
   width: 425px;
   text-align: center;
@@ -370,12 +322,149 @@ span {
   width: 582px;
   text-align: center;
 }
-.foryou-kids-gotomainpage-button {
+.foryou-kids-gotomainpage-btn-container {
   font-size: 50px;
   width: 425px;
   text-align: center;
 }
 
+/* CATEGORIES WE SERVE  */
+.headLine-categories-we-serve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.categories-we-serve-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  margin-bottom: 10px;
+  background-color: #d8d8d8;
+}
+
+.category-infoholder {
+  height: 830px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-infoholder > div {
+  margin: auto;
+}
+
+.category-image-resize-class {
+  height: 390px;
+  width: 390px;
+  border-radius: 390px;
+}
+
+.category-image-resize-class > div {
+  margin: auto;
+}
+
+.men-category-banner {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 708px;
+  grid-template-rows: 1fr 5fr;
+}
+
+.men-category-banner > div {
+  margin: auto;
+}
+
+.women-category-banner {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 708px;
+  grid-template-rows: 1fr 5fr;
+}
+
+.women-category-banner > div {
+  margin: auto;
+}
+
+.men-category-block {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.men-category-block > div {
+  display: grid;
+  gap: 30px;
+}
+.women-category-block {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.women-category-block > div {
+  display: grid;
+  gap: 30px;
+}
+
+.men-category-heading-btn {
+  height: 65px;
+  width: 800px;
+  border-radius: 5px;
+  background-color: black;
+  font-family: "oswald";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.women-category-heading-btn {
+  height: 65px;
+  width: 800px;
+  border-radius: 5px;
+  background-color: black;
+  font-family: "oswald";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.category-main-page-btn {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+  height: 60px;
+  width: 390px;
+}
+
+.men-category,
+.women-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 135px;
+  margin: auto;
+}
+
+/* EXPLORE BUTTON */
 .explore-btn {
   height: 50px;
   width: 200px;
@@ -390,6 +479,7 @@ span {
   color: white;
 }
 
+/* MENTOR  */
 .mentors-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -408,6 +498,19 @@ span {
   margin: auto;
 }
 
+.headLine-mentors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mentors-container {
+  height: 435px;
+  margin-bottom: 10px;
+}
+
+/* WHYCHOSEUS  */
 .whychoseus-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -427,6 +530,18 @@ span {
   margin: auto;
 }
 
+.headLine-whychoseus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.whychoseus-container {
+  height: 435px;
+  margin-bottom: 10px;
+}
+
 .whychoseusimage {
   height: 100px;
   width: 100px;
@@ -440,6 +555,7 @@ span {
   text-align: center;
 }
 
+/* footer */
 .footer {
   background-color: black;
   font-family: "oswald";
@@ -503,4 +619,8 @@ span {
   height: 475px;
   width: 475px;
   border-radius: 475px;
+}
+
+.hiding-class-men-banner,.hiding-class-women-banner {
+  display: none;
 }
